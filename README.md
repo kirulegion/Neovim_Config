@@ -21,14 +21,10 @@ Before setting up and using this Neovim configuration, ensure that you have the 
 - Neovim is required to run the configuration properly, as it leverages advanced features available in recent versions.
 
 - Install Neovim via [Homebrew 🍺](https://brew.sh/):
-
 ```bash
-
-brew install neovim
-
+	brew install neovim
 ```
 
-  
 
 ### 2. **Font (Optional but Recommended)**
 
@@ -56,6 +52,36 @@ brew install neovim
 
 ```bash
 
-brew install --cask wezterm
+	brew install --cask wezterm
 
 ```
+
+# 🚀 Getting Started
+
+*Follow the steps below to set up this Neovim configuration on your system.*
+
+
+- (Optional) Backup Your Current Neovim Setup
+```bash
+	mv ~/.config/nvim ~/.config/nvim.backup
+	mv ~/.local/share/nvim ~/.local/share/nvim.backup
+```
+- Clone This Configuration
+```bash
+	git clone https://github.com/kirulegion/Nvim_Config.git
+```
+- Start Neovim 💤
+```bash
+	nvim
+```
+
+# Features 
+-   **🖥️ Lazy.nvim Plugin Manager**: Automatically installs and manages all plugins.
+ 
+-   **🧑‍💻 LSP Support**: Out-of-the-box language server integration for a smooth coding experience.
+ 
+-   **🔍 Treesitter Syntax Highlighting**: Advanced syntax highlighting for better code readability.
+ 
+-   **📂 Oil File Explorer**: An intuitive file explorer for easy navigation.
+
+-   **💡 Smart Autocompletion**: Get context-aware suggestions while you code.
