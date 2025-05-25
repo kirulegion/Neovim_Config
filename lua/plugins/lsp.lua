@@ -36,7 +36,8 @@ return {
 
       lspconfig.lua_ls.setup({})
       lspconfig.rust_analyzer.setup({})
-      lspconfig.tsserver.setup({})
+      lspconfig.pyright.setup({})
+      lspconfig.ts_ls.setup({})
       lspconfig.tailwindcss.setup({})
     end,
   },
